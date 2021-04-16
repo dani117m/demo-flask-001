@@ -22,11 +22,6 @@ if __name__ == "__main__":
     
 @app.route('/lista')
 def lista():
-    return "<h2>Provincias costa</h2>"
-    return "<p> Esmeraldas - Capital Esmeraldas </p>"
-    return "<p> Manabí - Capital Portoviejo </p>"
-    return "<p> Los Ríos - Capital Babahoyo </p>"
-    return "<p> Santa Elena - Capital Santa Elena </p>"
-    return "<p> Guayas - Capital Guayaquil </p>"
-    return "<p> Santo Domingo de los Tsáchilas - Capital Santo Domingo </p>"
-    return "<p> El Oro - Capital Machala </p>"
+    return "<h1>Provincias costa</h1>"
+    return "<h2> Esmeraldas - Capital Esmeraldas <br> Manabí - Capital Portoviejo <br> Los Ríos - Capital Babahoyo <br> Santa Elena - Capital Santa Elena <br> Guayas - Capital Guayaquil <br> Santo Domingo de los Tsáchilas - Capital Santo Domingo <br> El Oro - Capital Machala </h2>"
+ 
