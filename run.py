@@ -22,7 +22,11 @@ if __name__ == "__main__":
     
 @app.route('/lista')
 def lista():
-    lista = ['Pronvincias del Ecuador','Azuay','Bolívar','Cañar','Carchi','Chimborazo','Cotopaxi','El Oro','Esmeraldas','Galápagos','Guayas','Imbabura','Loja','Los Ríos','Manabí','Morona Santiago','Napo','Orellana','Pastaza','Pichincha','Santa Elena','Santo Domingo de los Tsáchilas','Sucumbíos','Tungurahua','Zamora Chinchipe']
-    listado = ' <BR>'.join(lista)
-    return "<h1>%s</h1>" % (listado)
+    lista = ['Provincias tiene la costa', 'Esmeraldas - Capital Esmeraldas', 'Manabí - Capital Portoviejo', 'Los Ríos - Capital Babahoyo', 'Santa Elena - Capital Santa Elena', 'Guayas - Capital Guayaquil' ,'Santo Domingo de los Tsáchilas - Capital Santo Domingo','El Oro - Capital Machala']
+    lista2 = ['Provincias tiene la Sierra', 'Azuay - Capital Cuenca', 'Bolívar - Capital Guaranda', 'Cañar - Capital Azogues', 'Carchi - Capital Tulcán', 'Cotopaxi - Capital Latacunga', 'Chimborazo - Capital Riobamba', 'Imbabura - Capital Ibarra', 'Loja - Capital Loja ','Pichincha - Capital Quito' , 'Tungurahua - Capital Ambato']
+    lista3 = ['Provincias tiene el Oriente', 'Morona Santiago - Capital Macas',' Napo - Capital Tena', 'Orellana - Capital Orellana', 'Pastaza - Capital Puyo', 'Sucumbíos - Capital Lago Agrio', 'Zamora Chinchipe - Capital Zamora']
+    tab = '<BR>'.join(lista)
+    tab2 = '<BR>'.join(lista2)
+    tab3 = '<BR>'.join(lista3)
+    return "<h1>%s %s %s</h1>" % (tab,tab2,tab3)
  
